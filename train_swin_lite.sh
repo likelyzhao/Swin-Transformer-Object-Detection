@@ -1,0 +1,1 @@
+tools/dist_train.sh configs/swin/mask_rcnn_swin_lite_tiny_patch4_window7_mstrain_480-800_adamw_1x_coco.py 4 --cfg-options model.pretrained=ckpt/swin_lite_64.pth model.backbone.use_checkpoint=True
